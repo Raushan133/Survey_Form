@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><li>survey form</li></title>
+</head>
+
+<body>
+    <div>
+        <h1 class="main heading">survey Form:</h1>
+        <hr>
+        <!-- name start -->
+        <form class="main form">
+            <div class="form_control">
+                <div class="heading field">
+                    <h1 class="heading field">Custumer Name</h1>
+                </div>
+                <div class="form input">
+                    <div class="input_div">
+                        <!-- <label for="first name">Enter your first name as per marksheet</label><br> -->
+                        <input type="text" class="form control_input" id="first name" class="first name" required>
+                        <div class="help" id="help">Enter your first name</div>
+                    </div>
+                    <div class="input_div">
+                        <input type="text" class="form control_input" id="last name" class="last name" required>
+                        <div class="help" id="help">Enter your last name</div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- name end -->
+            <!-- address -->
+            <div class="form_control">
+                <div class="heading field">
+                    <h1 class="heading field">Address</h1>
+                </div>
+                <div class="form input">
+                    <div class="input_div">
+                        <input type="text" class="form control_input" id="address" class="address" required minlength="10" maxlength="100">
+                        <div class="street address help" id="help"> street address</div>
+                        <input type="text" class="form control_input" id="address"class="address" minlength="10" maxlength="100">
+                        <div class="Street address 2 help" id="help"> street address line 2</div>
+                        <input type="text" class="form control_input" id="address" class="address" required minlength="10" maxlength="100">
+                        <div class="city help" id="help">city</div>
+                        <input type="text" class="form control_input" id="address" class="address" required minlength="10" maxlength="100">
+                        <div class="state help" id="help">state</div>
+                        <input type="number" class="form control_input" id="address" class="address" required minlength="10" maxlength="100">
+                        <div class="zip code help" id="help">zip code</div>
+                       <select class="form control_input" id="country" name="country" required>
+                        <option value="">--Select your country</option>
+                        <option value="india">india</option>
+                        <option value="united state">united state</option>
+                        <option value="canada">canada</option>
+                        <option value="German">German</option>
+                        <option value="Austrila">Austrila</option>
+                        <option value="China">China</option>
+                        <option value="France">France</option>
+                        <option value="Japan">Japan</option>
+                        <option value="brazil">brazil</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Iopdensia">Iopdensia</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Banglasdesh">Bangladesh</option>
+                       </select>
+                       <div class="select country help" id="help">Select Country</div>
+                    </div>
+                </div>
+            </div>
+            <!-- address end -->
+            <!-- contact details -->
+            <div class="form control">
+                  <div class="heading field">
+                             <h1 class="heading field">Contact</h1>
+                  </div>
+                  <div class="form input">
+                    <div class="input_div">
+                        <input type="tel" class="form control input" id="first name" name="contact" required>
+                        <div class="help_text" id="tel contact help">Phone</div>
+                    </div>
+                    <div class="form input">
+                        <div class="input_div">
+                            <input type="tel" class="form control input" id="first another name" name="another contact" required>
+                            <div class="help_text" id="contact help">Another phone</div>
+                    <div class="input_div">
+                        <input type="email" class="form control input" id="email" name="email" required>
+                        <div class="help_text" id="last name help">Email</div>
+                    </div>
+                  </div>
+            </div>
+            <!-- end contact details -->
+            <!-- persional details -->
+            <div class="form control">
+                <div class="heading field">
+                    <h1 class="heading field">Personal Details</h1>
+                </div>
+                <div class="form input">
+                    <div class="input-div">
+                    <input type="radio" id="male" class="gender" name="gender" value="male"/>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" class="gender" name="gender" value="femae"/>
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" class="gender" name="gender" value="other"/>
+                    <label for="other">Other</label>
+                    </div>
+                  </div>
+                </div>
+                <!-- persional details -->
+                <!-- educational details -->
+                <div class="form control">
+                    <div class="form heading">
+                        <h1 class="form heading">Educational Details</h1>
+                    </div>
+                    <div class="input form">
+                        <div class="input_div">
+                            <h3>MATRICULATION</h3>
+                             <table class="input">
+                                <tr>
+                                   <th>
+                                    <pre>Status   </pre>
+                                     <select name="choose" id="option" required>
+                                        <option value="">--Please choose your option</option>
+                                        <option value="passed">Passed</option>
+                                        <option value="Not passed">Not passed</option>
+                                     </select>
+                                   </th>
+                                   <th>
+                                    <pre>Passing year   </pre>
+                                    <select name="choose" id="year" class="year" required>
+                                        <option value="">--Please choose your passing year</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                     </select>
+                                   </th>
+                                   <th>
+                                    <pre>State   </pre>
+                                    <input type="text" id="state" class="state" name="State" placeholder="enter your State">
+                                   </th>
+                                    <th>
+                                        <pre>Board/University   </pre>
+                                         <input type="text" id="Board" class="School/University_name" name="Board" placeholder="Enter your Board/University name">
+                                    </th>
+                                    <th>
+                                        <pre>roll no   </pre>
+                                        <input type="number" id="roll no." class="roll_code" name="roll_code" placeholder="Enter your rollno.">
+                                    </th>
+                                   <th>
+                                    <pre>percentage</pre>
+                                    <input type="number" id="percentage" placeholder="Enter your percentage">
+                                   </th>
+                                </tr>
+                             </table>
+                        </div>
+                    </div>
+                    <div class="input form">
+                        <div class="input_div">
+                            <h3>HIGHEST EDUCATIONAL QUALIFICATION</h3>
+                            <div class="input">
+                                <select name="choose" id="Highest Educational">
+                                    <option value="">--Please choose your option</option>
+                                    <option value="12th Standered">12th Standered</option>
+                                    <option value="Graduation">Graduation</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                             <table class="input">
+                                <tr>
+                                   <th>
+                                    <pre>Status   </pre>
+                                     <select name="choose" id="option" required>
+                                        <option value="">--Please choose your option</option>
+                                        <option value="passed">Passed</option>
+                                        <option value="Not passed">Not passed</option>
+                                     </select>
+                                   </th>
+                                   <th>
+                                    <pre>Passing year   </pre>
+                                    <select name="choose" id="year" class="year" required>
+                                        <option value="">--Please choose your passing year</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                     </select>
+                                   </th>
+                                   <th>
+                                    <pre>State   </pre>
+                                    <input type="text" id="state" class="state" name="State" placeholder="enter your State">
+                                   </th>
+                                    <th>
+                                        <pre>Board/University   </pre>
+                                         <input type="text" id="Board" class="School/University_name" name="Board" placeholder="Enter your Board/University name">
+                                    </th>
+                                    <th>
+                                        <pre>roll no   </pre>
+                                        <input type="number" id="roll no." class="roll_code" name="roll_code" placeholder="Enter your rollno.">
+                                    </th>
+                                   <th>
+                                    <pre>percentage</pre>
+                                    <input type="number" id="percentage" placeholder="Enter your percentage">
+                                   </th>
+                                </tr>
+                             </table>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" id="submit" class="End" style="background-color: green;" minlength="10" maxlength="20" size="20">
+        </form>
+    </div>
+</body>
+
+</html>
