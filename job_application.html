@@ -5,7 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>job_application</title>
-    <link rel="stylesheet" href="style1.css">
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containor {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+body {
+    background-color: gray;
+}
+
+.job_application {
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 50px;
+}
+
+.job_application span {
+    font-size: 20px;
+}
+
+.form_containor {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px,2fr)); */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form_content {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+input,select,textarea {
+    padding: 6px 10px;
+    border: 2px solid gray;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+input,textarea:focus {
+    outline-color: red;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding:3px 2px;
+    transition:0.3s ease-in;
+}
+button:hover{
+    background-color:#ccc;
+    color: black;
+    border: 2px solid red;
+    transition:0.3s ease-out;
+    cursor: pointer;
+} 
+.submit{
+    display:flex;
+    justify-content:flex-end;
+    margin-top: 30px;
+}
+/* .textarea_content{
+    grid-column:1 / span 2;
+} */
+.textarea_content textarea{
+         width: 100%;
+}</style>
 </head>
 <body>
     <div class="containor">
